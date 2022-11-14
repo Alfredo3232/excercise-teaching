@@ -22,15 +22,20 @@ var squirtle = {
     daño: 20
 }
 
-var pokemons = [squirtle, charmander, pikachu]
+var pokemons = [squirtle, charmander, pikachu, bulbasaur]
+
+for (let i = 0; i < pokemons.length; i++) {
+    console.log("Pokemons disponibles ->", pokemons[i].nombre)
+}
 
 function pokemonDerrotado(pokemon) {
-    console.log("este pokemon fue derrotado", pokemon);
+    console.log("este pokemon fue derrotado", pokemon)
 }
 
-function battle(entrenador1, entrenador2) {
-
+function battle(pokemon1, pokemon2) {
+    console.log(pokemon1, " VS ", pokemon2)
+    
 }
 
 
-battle(entrenador_yourName, entrenador_Alfredo)
+battle(pikachu, bulbasaur)
