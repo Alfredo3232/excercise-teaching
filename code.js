@@ -70,6 +70,5 @@ function battle(pokemon1, pokemon2) {
     if (pokemon2.vida < 0) {
         pokemonDerrotado(pokemon2.nombre)
     }
-    console.log("leaving function")
 }
 
